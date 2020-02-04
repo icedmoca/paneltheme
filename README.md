@@ -4,7 +4,7 @@ The theme has a small code snippet (build.sh) that you must install and follow d
 
 ## Steps to Install:
 1. Download the script: `bash <(curl -s https://raw.githubusercontent.com/icedmoca/paneltheme/master/build.sh`
-2. Modify the .env file `nano /var/www/pterodactyl/.env` change pterodactyltheme `pterodactyl` to `argon` then save the file.
+2. Modify the .env file `nano /var/www/pterodactyl/.env` change pterodactyltheme `pterodactyl` to `argon` then save.
 3. Change directory: `cd /var/www/pterodactyl` 
 4. Run these commands after you saved the file: `php artisan theme:refresh-cache` `php artisan view:clear`
 5. Refresh the browser `CTRL+F5` Success.
